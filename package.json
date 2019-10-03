@@ -1,0 +1,19 @@
+{
+  "name": "steam-acf-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "nc": "nearleyc grammar.ne -o grammar.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nearley": "^2.19.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0"
+  }
+}
